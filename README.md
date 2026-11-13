@@ -115,23 +115,6 @@ splits (seed 42, 5 folds):
 | Validation | 74 | 924 | 324 |
 | Test | 74 | 988 | 337 |
 
-Validation is used for early stopping and per-label threshold tuning; test is
-scored once. `data/splits/split_report.json` records the exact composition.
-
-### Sample schema (`data/v1/pages.jsonl`)
-
-| Column | Meaning |
-|---|---|
-| `sample_id` | `<manuscript_id>#p<page>`, unique |
-| `manuscript_id`, `field`, `page`, `n_pages` | provenance and position |
-| `text` | extracted page text |
-| `labels` | manual annotation: sections that **start** on this page |
-| `labels_covered` | prediction target: manual labels + inherited label |
-| `label_source` | `manual` or `inherited` |
-| `is_section_start` | true iff the page carries manual labels |
-| `y` | binary target over the 18-label canonical order |
-
----
 
 ## Annotation protocol
 
