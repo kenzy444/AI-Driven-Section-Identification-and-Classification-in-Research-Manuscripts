@@ -1,0 +1,2515 @@
+{
+  "created_at": "2026-10-31T16:57:52+00:00",
+  "unit": "manuscript",
+  "seed": 42,
+  "ratios": {
+    "train": 0.7,
+    "val": 0.15,
+    "test": 0.15
+  },
+  "n_folds": 5,
+  "fold_seed": 43,
+  "n_manuscripts": 500,
+  "articles": {
+    "0101011v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 1
+    },
+    "0106013v1.pdf": {
+      "split": "val",
+      "field": "cs",
+      "fold": 1
+    },
+    "0106030v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 3
+    },
+    "0211048v4.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 4
+    },
+    "0212009v5.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 0
+    },
+    "0508066v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 4
+    },
+    "0510030v2.pdf": {
+      "split": "val",
+      "field": "q-bio",
+      "fold": 2
+    },
+    "0511005v2.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 2
+    },
+    "0512067v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 1
+    },
+    "0602002v1.pdf": {
+      "split": "val",
+      "field": "q-bio",
+      "fold": 0
+    },
+    "0603076v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 0
+    },
+    "0604012v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 2
+    },
+    "0605049v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 1
+    },
+    "0610012v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 4
+    },
+    "0611004v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 4
+    },
+    "0612003v2.pdf": {
+      "split": "test",
+      "field": "cs",
+      "fold": 1
+    },
+    "0701002v2.pdf": {
+      "split": "val",
+      "field": "q-bio",
+      "fold": 0
+    },
+    "0703050v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 0
+    },
+    "0705.1057v2.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 2
+    },
+    "0706.0725v2.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 0
+    },
+    "0707.4318v1.pdf": {
+      "split": "val",
+      "field": "q-bio",
+      "fold": 0
+    },
+    "0712.1852v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 1
+    },
+    "0802.1085v3.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 2
+    },
+    "0803.3632v1.pdf": {
+      "split": "test",
+      "field": "cs",
+      "fold": 4
+    },
+    "0804.2095v1.pdf": {
+      "split": "test",
+      "field": "cs",
+      "fold": 2
+    },
+    "0807.1803v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 2
+    },
+    "0807.2008v2.pdf": {
+      "split": "test",
+      "field": "q-bio",
+      "fold": 1
+    },
+    "0807.3933v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 4
+    },
+    "0809.0874v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 0
+    },
+    "0812.0025v1.pdf": {
+      "split": "val",
+      "field": "q-bio",
+      "fold": 2
+    },
+    "0812.0841v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 4
+    },
+    "0812.0893v2.pdf": {
+      "split": "val",
+      "field": "cs",
+      "fold": 4
+    },
+    "0901.0280v2.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 2
+    },
+    "0901.2521v2.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 0
+    },
+    "0902.1610v1.pdf": {
+      "split": "val",
+      "field": "cs",
+      "fold": 3
+    },
+    "0904.2096v1.pdf": {
+      "split": "val",
+      "field": "cs",
+      "fold": 4
+    },
+    "0906.0274v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 4
+    },
+    "0907.5429v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 4
+    },
+    "0908.3610v1.pdf": {
+      "split": "test",
+      "field": "q-bio",
+      "fold": 4
+    },
+    "0908.4353v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 2
+    },
+    "0910.2084v1.pdf": {
+      "split": "val",
+      "field": "q-bio",
+      "fold": 1
+    },
+    "0910.2436v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 3
+    },
+    "0911.4051v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 1
+    },
+    "0911.4642v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 0
+    },
+    "0911.5315v1.pdf": {
+      "split": "test",
+      "field": "q-bio",
+      "fold": 2
+    },
+    "0912.0913v2.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 3
+    },
+    "0912.1897v1.pdf": {
+      "split": "val",
+      "field": "cs",
+      "fold": 3
+    },
+    "0912.1901v1.pdf": {
+      "split": "val",
+      "field": "cs",
+      "fold": 0
+    },
+    "0912.2550v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 0
+    },
+    "1002.0939v1.pdf": {
+      "split": "test",
+      "field": "cs",
+      "fold": 2
+    },
+    "1002.2474v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 1
+    },
+    "1002.3907v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 0
+    },
+    "1002.4273v2.pdf": {
+      "split": "test",
+      "field": "q-bio",
+      "fold": 1
+    },
+    "1006.4009v1.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 4
+    },
+    "1007.3565v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 2
+    },
+    "1007.3567v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 1
+    },
+    "1007.3794v1.pdf": {
+      "split": "test",
+      "field": "cs",
+      "fold": 4
+    },
+    "1009.0844v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 4
+    },
+    "1009.1170v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 3
+    },
+    "1009.1317v1.pdf": {
+      "split": "test",
+      "field": "cs",
+      "fold": 4
+    },
+    "1012.4177v1.pdf": {
+      "split": "test",
+      "field": "math",
+      "fold": 3
+    },
+    "1012.4422v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 3
+    },
+    "1103.1855v3.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 2
+    },
+    "1103.2635v2.pdf": {
+      "split": "val",
+      "field": "cs",
+      "fold": 3
+    },
+    "1104.1698v1.pdf": {
+      "split": "test",
+      "field": "cs",
+      "fold": 0
+    },
+    "1104.4518v2.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 0
+    },
+    "1105.0880v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 1
+    },
+    "1106.4735v4.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 0
+    },
+    "1109.0783v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 1
+    },
+    "1110.4673v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 2
+    },
+    "1201.3232v4.pdf": {
+      "split": "val",
+      "field": "q-bio",
+      "fold": 2
+    },
+    "1202.1447v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 3
+    },
+    "1202.1841v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 4
+    },
+    "1202.4157v1.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 4
+    },
+    "1202.4831v1.pdf": {
+      "split": "val",
+      "field": "cs",
+      "fold": 1
+    },
+    "1202.4833v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 1
+    },
+    "1203.1017v1.pdf": {
+      "split": "test",
+      "field": "cs",
+      "fold": 3
+    },
+    "1203.1450v2.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 2
+    },
+    "1206.4826v2.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 2
+    },
+    "1207.0873v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 4
+    },
+    "1207.6897v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 4
+    },
+    "1208.3852v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 4
+    },
+    "1208.3853v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 0
+    },
+    "1208.6391v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 4
+    },
+    "1210.0104v2.pdf": {
+      "split": "test",
+      "field": "q-bio",
+      "fold": 4
+    },
+    "1210.2454v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 3
+    },
+    "1211.6185v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 3
+    },
+    "1211.6196v1.pdf": {
+      "split": "val",
+      "field": "cs",
+      "fold": 2
+    },
+    "1211.7330v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 2
+    },
+    "1212.0981v1.pdf": {
+      "split": "val",
+      "field": "cs",
+      "fold": 3
+    },
+    "1212.2658v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 4
+    },
+    "1301.2649v1.pdf": {
+      "split": "val",
+      "field": "cs",
+      "fold": 0
+    },
+    "1308.0698v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 2
+    },
+    "1309.0936v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 3
+    },
+    "1309.1265v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 0
+    },
+    "1309.1274v1.pdf": {
+      "split": "val",
+      "field": "cs",
+      "fold": 3
+    },
+    "1309.1802v2.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 4
+    },
+    "1309.3314v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 4
+    },
+    "1310.3180v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 4
+    },
+    "1310.3185v1.pdf": {
+      "split": "test",
+      "field": "q-bio",
+      "fold": 3
+    },
+    "1312.2873v2.pdf": {
+      "split": "test",
+      "field": "cs",
+      "fold": 3
+    },
+    "1401.1742v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 1
+    },
+    "1401.5215v1.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 1
+    },
+    "1402.4036v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 0
+    },
+    "1402.4319v1.pdf": {
+      "split": "val",
+      "field": "q-bio",
+      "fold": 1
+    },
+    "1403.1165v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 3
+    },
+    "1404.1637v1.pdf": {
+      "split": "val",
+      "field": "cs",
+      "fold": 0
+    },
+    "1406.3156v1.pdf": {
+      "split": "test",
+      "field": "cs",
+      "fold": 1
+    },
+    "1406.5569v1.pdf": {
+      "split": "test",
+      "field": "cs",
+      "fold": 3
+    },
+    "1408.0990v1.pdf": {
+      "split": "test",
+      "field": "cs",
+      "fold": 3
+    },
+    "1408.2524v2.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 1
+    },
+    "1408.5969v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 1
+    },
+    "1411.2860v1.pdf": {
+      "split": "test",
+      "field": "cs",
+      "fold": 0
+    },
+    "1411.5795v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 4
+    },
+    "1502.01768v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 2
+    },
+    "1502.03645v2.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 2
+    },
+    "1502.03703v4.pdf": {
+      "split": "val",
+      "field": "math",
+      "fold": 2
+    },
+    "1505.03357v3.pdf": {
+      "split": "test",
+      "field": "cs",
+      "fold": 1
+    },
+    "1505.05269v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 3
+    },
+    "1507.02811v2.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 3
+    },
+    "1508.03808v2.pdf": {
+      "split": "val",
+      "field": "stat",
+      "fold": 4
+    },
+    "1509.08565v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 2
+    },
+    "1510.02552v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 1
+    },
+    "1511.04169v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 1
+    },
+    "1511.04170v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 1
+    },
+    "1601.01633v2.pdf": {
+      "split": "test",
+      "field": "math",
+      "fold": 4
+    },
+    "1602.08314v1.pdf": {
+      "split": "val",
+      "field": "q-bio",
+      "fold": 3
+    },
+    "1603.00738v1.pdf": {
+      "split": "train",
+      "field": "stat",
+      "fold": 1
+    },
+    "1604.04139v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 1
+    },
+    "1604.05507v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 3
+    },
+    "1605.00362v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 4
+    },
+    "1605.01219v2.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 3
+    },
+    "1606.00045v2.pdf": {
+      "split": "val",
+      "field": "math",
+      "fold": 2
+    },
+    "1606.00502v1.pdf": {
+      "split": "test",
+      "field": "cs",
+      "fold": 1
+    },
+    "1606.01866v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 2
+    },
+    "1606.02635v1.pdf": {
+      "split": "test",
+      "field": "cs",
+      "fold": 0
+    },
+    "1607.01957v1.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 2
+    },
+    "1607.07763v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 2
+    },
+    "1609.03805v1.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 3
+    },
+    "1609.08687v1.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 4
+    },
+    "1610.03052v3.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 3
+    },
+    "1610.05733v1.pdf": {
+      "split": "val",
+      "field": "stat",
+      "fold": 2
+    },
+    "1610.06127v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 4
+    },
+    "1610.06128v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 0
+    },
+    "1610.08134v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 4
+    },
+    "1610.09536v2.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 4
+    },
+    "1611.01792v2.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 0
+    },
+    "1611.03073v1.pdf": {
+      "split": "test",
+      "field": "stat",
+      "fold": 0
+    },
+    "1611.07862v2.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 0
+    },
+    "1701.04583v1.pdf": {
+      "split": "train",
+      "field": "stat",
+      "fold": 3
+    },
+    "1702.02432v3.pdf": {
+      "split": "test",
+      "field": "stat",
+      "fold": 0
+    },
+    "1703.05359v3.pdf": {
+      "split": "val",
+      "field": "math",
+      "fold": 2
+    },
+    "1703.08648v3.pdf": {
+      "split": "train",
+      "field": "stat",
+      "fold": 4
+    },
+    "1704.03389v3.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 1
+    },
+    "1704.03812v15.pdf": {
+      "split": "train",
+      "field": "stat",
+      "fold": 4
+    },
+    "1705.00694v2.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 2
+    },
+    "1705.03560v1.pdf": {
+      "split": "val",
+      "field": "stat",
+      "fold": 3
+    },
+    "1705.06332v1.pdf": {
+      "split": "train",
+      "field": "stat",
+      "fold": 4
+    },
+    "1705.06932v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 3
+    },
+    "1705.08544v1.pdf": {
+      "split": "val",
+      "field": "stat",
+      "fold": 2
+    },
+    "1706.01989v1.pdf": {
+      "split": "val",
+      "field": "q-bio",
+      "fold": 1
+    },
+    "1707.05984v1.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 0
+    },
+    "1707.08164v2.pdf": {
+      "split": "val",
+      "field": "cs",
+      "fold": 3
+    },
+    "1707.09944v1.pdf": {
+      "split": "val",
+      "field": "physics",
+      "fold": 0
+    },
+    "1708.02654v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 2
+    },
+    "1708.05938v2.pdf": {
+      "split": "test",
+      "field": "q-bio",
+      "fold": 0
+    },
+    "1709.01609v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 0
+    },
+    "1710.03439v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 2
+    },
+    "1710.04856v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 2
+    },
+    "1710.07284v5.pdf": {
+      "split": "train",
+      "field": "stat",
+      "fold": 0
+    },
+    "1710.07711v2.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 3
+    },
+    "1711.07790v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 0
+    },
+    "1711.08927v2.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 0
+    },
+    "1712.04797v1.pdf": {
+      "split": "test",
+      "field": "physics",
+      "fold": 2
+    },
+    "1712.07987v2.pdf": {
+      "split": "test",
+      "field": "physics",
+      "fold": 3
+    },
+    "1802.07450v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 3
+    },
+    "1803.04247v3.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 0
+    },
+    "1804.01614v3.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 2
+    },
+    "1804.07940v1.pdf": {
+      "split": "train",
+      "field": "stat",
+      "fold": 4
+    },
+    "1805.03281v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 0
+    },
+    "1805.03923v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 2
+    },
+    "1805.09643v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 1
+    },
+    "1806.02829v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 4
+    },
+    "1806.03971v1.pdf": {
+      "split": "train",
+      "field": "stat",
+      "fold": 1
+    },
+    "1806.07060v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 3
+    },
+    "1807.10642v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 0
+    },
+    "1807.11102v1.pdf": {
+      "split": "train",
+      "field": "econ",
+      "fold": 3
+    },
+    "1807.11864v4.pdf": {
+      "split": "train",
+      "field": "econ",
+      "fold": 3
+    },
+    "1808.00339v1.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 3
+    },
+    "1808.02009v3.pdf": {
+      "split": "val",
+      "field": "physics",
+      "fold": 0
+    },
+    "1808.05996v1.pdf": {
+      "split": "test",
+      "field": "econ",
+      "fold": 0
+    },
+    "1809.01409v2.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 2
+    },
+    "1809.10496v3.pdf": {
+      "split": "train",
+      "field": "stat",
+      "fold": 2
+    },
+    "1810.05118v3.pdf": {
+      "split": "train",
+      "field": "stat",
+      "fold": 3
+    },
+    "1810.08752v2.pdf": {
+      "split": "test",
+      "field": "math",
+      "fold": 4
+    },
+    "1810.10287v1.pdf": {
+      "split": "train",
+      "field": "econ",
+      "fold": 2
+    },
+    "1810.10604v2.pdf": {
+      "split": "train",
+      "field": "econ",
+      "fold": 0
+    },
+    "1810.12779v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 2
+    },
+    "1812.04678v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 2
+    },
+    "1812.10293v1.pdf": {
+      "split": "train",
+      "field": "econ",
+      "fold": 1
+    },
+    "1901.06264v2.pdf": {
+      "split": "test",
+      "field": "physics",
+      "fold": 4
+    },
+    "1902.02010v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 0
+    },
+    "1902.04805v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 0
+    },
+    "1903.03405v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 0
+    },
+    "1903.09867v1.pdf": {
+      "split": "test",
+      "field": "econ",
+      "fold": 2
+    },
+    "1904.09195v2.pdf": {
+      "split": "test",
+      "field": "physics",
+      "fold": 0
+    },
+    "1904.10172v1.pdf": {
+      "split": "test",
+      "field": "stat",
+      "fold": 1
+    },
+    "1904.13365v1.pdf": {
+      "split": "test",
+      "field": "stat",
+      "fold": 2
+    },
+    "1905.05860v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 4
+    },
+    "1905.11036v3.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 4
+    },
+    "1906.03237v1.pdf": {
+      "split": "train",
+      "field": "econ",
+      "fold": 1
+    },
+    "1906.03558v3.pdf": {
+      "split": "train",
+      "field": "econ",
+      "fold": 2
+    },
+    "1907.03587v1.pdf": {
+      "split": "val",
+      "field": "physics",
+      "fold": 1
+    },
+    "1907.08923v3.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 3
+    },
+    "1908.04670v1.pdf": {
+      "split": "train",
+      "field": "stat",
+      "fold": 3
+    },
+    "1909.01631v3.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 0
+    },
+    "1909.13186v2.pdf": {
+      "split": "train",
+      "field": "stat",
+      "fold": 4
+    },
+    "1912.04359v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 4
+    },
+    "1912.10630v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 3
+    },
+    "2004.02631v4.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 3
+    },
+    "2004.06464v2.pdf": {
+      "split": "train",
+      "field": "stat",
+      "fold": 4
+    },
+    "2004.09617v1.pdf": {
+      "split": "train",
+      "field": "econ",
+      "fold": 3
+    },
+    "2004.12080v1.pdf": {
+      "split": "val",
+      "field": "physics",
+      "fold": 0
+    },
+    "2005.01469v2.pdf": {
+      "split": "val",
+      "field": "cs",
+      "fold": 4
+    },
+    "2005.07131v2.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 3
+    },
+    "2005.11050v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 2
+    },
+    "2005.11673v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 3
+    },
+    "2006.02055v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 0
+    },
+    "2006.10109v1.pdf": {
+      "split": "test",
+      "field": "econ",
+      "fold": 1
+    },
+    "2006.15309v1.pdf": {
+      "split": "train",
+      "field": "econ",
+      "fold": 0
+    },
+    "2007.03530v3.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 1
+    },
+    "2007.06543v1.pdf": {
+      "split": "val",
+      "field": "stat",
+      "fold": 4
+    },
+    "2007.13646v1.pdf": {
+      "split": "train",
+      "field": "stat",
+      "fold": 0
+    },
+    "2009.07199v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 2
+    },
+    "2009.10722v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 1
+    },
+    "2009.12659v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 4
+    },
+    "2010.08122v1.pdf": {
+      "split": "val",
+      "field": "econ",
+      "fold": 4
+    },
+    "2010.09074v1.pdf": {
+      "split": "train",
+      "field": "econ",
+      "fold": 0
+    },
+    "2010.09852v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 4
+    },
+    "2010.10513v1.pdf": {
+      "split": "train",
+      "field": "stat",
+      "fold": 3
+    },
+    "2010.12095v1.pdf": {
+      "split": "train",
+      "field": "stat",
+      "fold": 0
+    },
+    "2011.03256v1.pdf": {
+      "split": "val",
+      "field": "physics",
+      "fold": 1
+    },
+    "2012.05405v1.pdf": {
+      "split": "train",
+      "field": "stat",
+      "fold": 3
+    },
+    "2101.01159v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 2
+    },
+    "2101.05177v2.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 1
+    },
+    "2102.00316v2.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 0
+    },
+    "2102.00669v3.pdf": {
+      "split": "val",
+      "field": "econ",
+      "fold": 4
+    },
+    "2102.06075v2.pdf": {
+      "split": "train",
+      "field": "econ",
+      "fold": 2
+    },
+    "2103.04283v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 4
+    },
+    "2104.01760v3.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 4
+    },
+    "2105.01520v2.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 4
+    },
+    "2105.03563v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 2
+    },
+    "2106.00585v1.pdf": {
+      "split": "val",
+      "field": "physics",
+      "fold": 0
+    },
+    "2107.12433v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 0
+    },
+    "2108.01686v1.pdf": {
+      "split": "val",
+      "field": "physics",
+      "fold": 1
+    },
+    "2108.06587v2.pdf": {
+      "split": "train",
+      "field": "econ",
+      "fold": 3
+    },
+    "2201.00539v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 3
+    },
+    "2201.06310v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 1
+    },
+    "2201.08635v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 3
+    },
+    "2203.04910v3.pdf": {
+      "split": "val",
+      "field": "cs",
+      "fold": 3
+    },
+    "2205.05760v3.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 0
+    },
+    "2206.00590v3.pdf": {
+      "split": "train",
+      "field": "stat",
+      "fold": 1
+    },
+    "2207.00675v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 4
+    },
+    "2208.01972v3.pdf": {
+      "split": "test",
+      "field": "econ",
+      "fold": 4
+    },
+    "2208.02539v1.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 0
+    },
+    "2208.05316v3.pdf": {
+      "split": "train",
+      "field": "econ",
+      "fold": 2
+    },
+    "2209.03273v1.pdf": {
+      "split": "test",
+      "field": "physics",
+      "fold": 2
+    },
+    "2210.07178v2.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 1
+    },
+    "2210.13016v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 4
+    },
+    "2211.04101v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 1
+    },
+    "2303.09217v3.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 3
+    },
+    "2305.12006v3.pdf": {
+      "split": "test",
+      "field": "stat",
+      "fold": 4
+    },
+    "2306.08725v2.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 0
+    },
+    "2308.13038v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 0
+    },
+    "2309.14364v1.pdf": {
+      "split": "val",
+      "field": "cs",
+      "fold": 1
+    },
+    "2310.11362v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 2
+    },
+    "2311.17370v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 4
+    },
+    "2312.03481v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 2
+    },
+    "2312.14325v1.pdf": {
+      "split": "val",
+      "field": "econ",
+      "fold": 2
+    },
+    "2401.11000v2.pdf": {
+      "split": "val",
+      "field": "stat",
+      "fold": 3
+    },
+    "2401.13702v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 2
+    },
+    "2403.05880v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 0
+    },
+    "2403.09109v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 4
+    },
+    "2405.17363v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 4
+    },
+    "2405.20156v1.pdf": {
+      "split": "train",
+      "field": "stat",
+      "fold": 0
+    },
+    "2406.00962v2.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 4
+    },
+    "2407.02591v1.pdf": {
+      "split": "test",
+      "field": "cs",
+      "fold": 1
+    },
+    "2407.08088v1.pdf": {
+      "split": "test",
+      "field": "cs",
+      "fold": 1
+    },
+    "2408.00589v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 3
+    },
+    "2408.01584v3.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 4
+    },
+    "2501.01527v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 0
+    },
+    "2502.19898v1.pdf": {
+      "split": "train",
+      "field": "econ",
+      "fold": 0
+    },
+    "2502.20706v1.pdf": {
+      "split": "train",
+      "field": "econ",
+      "fold": 1
+    },
+    "2502.20816v1.pdf": {
+      "split": "val",
+      "field": "econ",
+      "fold": 2
+    },
+    "2502.20917v1.pdf": {
+      "split": "train",
+      "field": "econ",
+      "fold": 3
+    },
+    "2502.21037v2.pdf": {
+      "split": "test",
+      "field": "econ",
+      "fold": 0
+    },
+    "2503.00757v1.pdf": {
+      "split": "train",
+      "field": "econ",
+      "fold": 1
+    },
+    "2503.00883v1.pdf": {
+      "split": "train",
+      "field": "econ",
+      "fold": 1
+    },
+    "2503.01663v1.pdf": {
+      "split": "train",
+      "field": "econ",
+      "fold": 0
+    },
+    "2503.01889v1.pdf": {
+      "split": "train",
+      "field": "econ",
+      "fold": 2
+    },
+    "2503.02518v1.pdf": {
+      "split": "val",
+      "field": "econ",
+      "fold": 3
+    },
+    "2503.02692v1.pdf": {
+      "split": "test",
+      "field": "econ",
+      "fold": 4
+    },
+    "2503.02740v1.pdf": {
+      "split": "train",
+      "field": "econ",
+      "fold": 2
+    },
+    "2503.03275v1.pdf": {
+      "split": "train",
+      "field": "econ",
+      "fold": 3
+    },
+    "2503.03323v1.pdf": {
+      "split": "train",
+      "field": "econ",
+      "fold": 3
+    },
+    "2503.03688v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 3
+    },
+    "2503.03904v1.pdf": {
+      "split": "val",
+      "field": "q-bio",
+      "fold": 2
+    },
+    "2503.03913v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 2
+    },
+    "2503.04221v1.pdf": {
+      "split": "test",
+      "field": "q-bio",
+      "fold": 4
+    },
+    "2503.04347v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 0
+    },
+    "2503.04477v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 3
+    },
+    "2503.04483v1.pdf": {
+      "split": "val",
+      "field": "q-bio",
+      "fold": 1
+    },
+    "2503.04490v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 0
+    },
+    "2503.04572v1.pdf": {
+      "split": "val",
+      "field": "q-bio",
+      "fold": 2
+    },
+    "2503.04659v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 3
+    },
+    "2503.04661v1.pdf": {
+      "split": "train",
+      "field": "econ",
+      "fold": 4
+    },
+    "2503.04677v1.pdf": {
+      "split": "val",
+      "field": "q-bio",
+      "fold": 0
+    },
+    "2503.04716v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 3
+    },
+    "2503.04843v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 3
+    },
+    "2503.04854v1.pdf": {
+      "split": "train",
+      "field": "econ",
+      "fold": 3
+    },
+    "2503.05031v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 1
+    },
+    "2503.05048v1.pdf": {
+      "split": "val",
+      "field": "econ",
+      "fold": 1
+    },
+    "2503.05125v1.pdf": {
+      "split": "train",
+      "field": "econ",
+      "fold": 1
+    },
+    "2503.05310v1.pdf": {
+      "split": "train",
+      "field": "econ",
+      "fold": 4
+    },
+    "2503.05338v2.pdf": {
+      "split": "train",
+      "field": "econ",
+      "fold": 4
+    },
+    "2503.05448v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 0
+    },
+    "2503.05481v1.pdf": {
+      "split": "train",
+      "field": "econ",
+      "fold": 1
+    },
+    "2503.05564v1.pdf": {
+      "split": "val",
+      "field": "q-bio",
+      "fold": 1
+    },
+    "2503.05591v1.pdf": {
+      "split": "test",
+      "field": "q-bio",
+      "fold": 4
+    },
+    "2503.05630v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 1
+    },
+    "2503.05816v1.pdf": {
+      "split": "val",
+      "field": "econ",
+      "fold": 4
+    },
+    "2503.05828v1.pdf": {
+      "split": "train",
+      "field": "econ",
+      "fold": 1
+    },
+    "2503.06046v1.pdf": {
+      "split": "train",
+      "field": "econ",
+      "fold": 0
+    },
+    "2503.06052v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 1
+    },
+    "2503.06123v1.pdf": {
+      "split": "test",
+      "field": "q-bio",
+      "fold": 2
+    },
+    "2503.06178v1.pdf": {
+      "split": "test",
+      "field": "q-bio",
+      "fold": 3
+    },
+    "2503.06374v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 4
+    },
+    "2503.06381v1.pdf": {
+      "split": "train",
+      "field": "stat",
+      "fold": 2
+    },
+    "2503.06393v1.pdf": {
+      "split": "test",
+      "field": "stat",
+      "fold": 2
+    },
+    "2503.06399v1.pdf": {
+      "split": "test",
+      "field": "stat",
+      "fold": 0
+    },
+    "2503.06401v1.pdf": {
+      "split": "train",
+      "field": "stat",
+      "fold": 0
+    },
+    "2503.06450v1.pdf": {
+      "split": "train",
+      "field": "stat",
+      "fold": 2
+    },
+    "2503.06558v1.pdf": {
+      "split": "train",
+      "field": "stat",
+      "fold": 0
+    },
+    "2503.06599v1.pdf": {
+      "split": "test",
+      "field": "econ",
+      "fold": 0
+    },
+    "2503.06639v1.pdf": {
+      "split": "train",
+      "field": "stat",
+      "fold": 0
+    },
+    "2503.06646v1.pdf": {
+      "split": "train",
+      "field": "econ",
+      "fold": 0
+    },
+    "2503.06696v1.pdf": {
+      "split": "train",
+      "field": "econ",
+      "fold": 3
+    },
+    "2503.06742v1.pdf": {
+      "split": "train",
+      "field": "stat",
+      "fold": 1
+    },
+    "2503.06797v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 3
+    },
+    "2503.06837v1.pdf": {
+      "split": "train",
+      "field": "stat",
+      "fold": 3
+    },
+    "2503.06845v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 4
+    },
+    "2503.06846v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 2
+    },
+    "2503.07104v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 0
+    },
+    "2503.07114v1.pdf": {
+      "split": "train",
+      "field": "stat",
+      "fold": 2
+    },
+    "2503.07121v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 3
+    },
+    "2503.07181v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 0
+    },
+    "2503.07255v1.pdf": {
+      "split": "test",
+      "field": "stat",
+      "fold": 4
+    },
+    "2503.07313v1.pdf": {
+      "split": "train",
+      "field": "stat",
+      "fold": 2
+    },
+    "2503.07343v1.pdf": {
+      "split": "train",
+      "field": "stat",
+      "fold": 1
+    },
+    "2503.07434v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 1
+    },
+    "2503.07444v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 1
+    },
+    "2503.07451v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 2
+    },
+    "2503.07477v1.pdf": {
+      "split": "test",
+      "field": "q-bio",
+      "fold": 4
+    },
+    "2503.07558v1.pdf": {
+      "split": "train",
+      "field": "econ",
+      "fold": 4
+    },
+    "2503.07640v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 1
+    },
+    "2503.07664v1.pdf": {
+      "split": "test",
+      "field": "q-bio",
+      "fold": 3
+    },
+    "2503.07665v1.pdf": {
+      "split": "train",
+      "field": "stat",
+      "fold": 1
+    },
+    "2503.07671v1.pdf": {
+      "split": "train",
+      "field": "stat",
+      "fold": 3
+    },
+    "2503.07736v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 1
+    },
+    "2503.07773v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 3
+    },
+    "2503.07786v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 1
+    },
+    "2503.07789v1.pdf": {
+      "split": "train",
+      "field": "stat",
+      "fold": 1
+    },
+    "2503.07805v1.pdf": {
+      "split": "train",
+      "field": "stat",
+      "fold": 0
+    },
+    "2503.07837v1.pdf": {
+      "split": "test",
+      "field": "physics",
+      "fold": 4
+    },
+    "2503.07838v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 3
+    },
+    "2503.07845v1.pdf": {
+      "split": "test",
+      "field": "physics",
+      "fold": 2
+    },
+    "2503.07847v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 0
+    },
+    "2503.07851v1.pdf": {
+      "split": "train",
+      "field": "stat",
+      "fold": 3
+    },
+    "2503.07873v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 4
+    },
+    "2503.07876v1.pdf": {
+      "split": "train",
+      "field": "econ",
+      "fold": 2
+    },
+    "2503.07886v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 0
+    },
+    "2503.07887v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 3
+    },
+    "2503.07888v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 2
+    },
+    "2503.07889v1.pdf": {
+      "split": "test",
+      "field": "physics",
+      "fold": 1
+    },
+    "2503.07905v1.pdf": {
+      "split": "test",
+      "field": "physics",
+      "fold": 0
+    },
+    "2503.07930v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 0
+    },
+    "2503.07934v1.pdf": {
+      "split": "train",
+      "field": "stat",
+      "fold": 2
+    },
+    "2503.07965v1.pdf": {
+      "split": "test",
+      "field": "physics",
+      "fold": 1
+    },
+    "2503.07995v1.pdf": {
+      "split": "val",
+      "field": "stat",
+      "fold": 1
+    },
+    "2503.08004v1.pdf": {
+      "split": "train",
+      "field": "stat",
+      "fold": 4
+    },
+    "2503.08022v1.pdf": {
+      "split": "test",
+      "field": "physics",
+      "fold": 0
+    },
+    "2503.08039v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 3
+    },
+    "2503.08052v1.pdf": {
+      "split": "val",
+      "field": "physics",
+      "fold": 2
+    },
+    "2503.08054v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 4
+    },
+    "2503.08069v1.pdf": {
+      "split": "train",
+      "field": "q-bio",
+      "fold": 3
+    },
+    "2503.08103v1.pdf": {
+      "split": "train",
+      "field": "stat",
+      "fold": 2
+    },
+    "2503.08112v1.pdf": {
+      "split": "test",
+      "field": "physics",
+      "fold": 1
+    },
+    "2503.08115v1.pdf": {
+      "split": "test",
+      "field": "q-bio",
+      "fold": 1
+    },
+    "2503.08146v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 4
+    },
+    "2503.08149v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 2
+    },
+    "2503.08177v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 4
+    },
+    "2503.08183v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 1
+    },
+    "2503.08184v1.pdf": {
+      "split": "val",
+      "field": "physics",
+      "fold": 3
+    },
+    "2503.08191v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 3
+    },
+    "2503.08210v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 2
+    },
+    "2503.08231v1.pdf": {
+      "split": "val",
+      "field": "stat",
+      "fold": 1
+    },
+    "2503.08232v1.pdf": {
+      "split": "train",
+      "field": "stat",
+      "fold": 3
+    },
+    "2503.08233v1.pdf": {
+      "split": "test",
+      "field": "math",
+      "fold": 1
+    },
+    "2503.08235v1.pdf": {
+      "split": "test",
+      "field": "math",
+      "fold": 0
+    },
+    "2503.08237v1.pdf": {
+      "split": "val",
+      "field": "physics",
+      "fold": 1
+    },
+    "2503.08240v1.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 0
+    },
+    "2503.08252v1.pdf": {
+      "split": "train",
+      "field": "stat",
+      "fold": 1
+    },
+    "2503.08258v1.pdf": {
+      "split": "val",
+      "field": "math",
+      "fold": 1
+    },
+    "2503.08260v1.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 2
+    },
+    "2503.08265v1.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 3
+    },
+    "2503.08274v1.pdf": {
+      "split": "val",
+      "field": "math",
+      "fold": 2
+    },
+    "2503.08305v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 3
+    },
+    "2503.08312v1.pdf": {
+      "split": "test",
+      "field": "math",
+      "fold": 4
+    },
+    "2503.08326v1.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 3
+    },
+    "2503.08331v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 4
+    },
+    "2503.08340v1.pdf": {
+      "split": "test",
+      "field": "math",
+      "fold": 1
+    },
+    "2503.08341v1.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 4
+    },
+    "2503.08343v1.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 1
+    },
+    "2503.08345v1.pdf": {
+      "split": "test",
+      "field": "math",
+      "fold": 4
+    },
+    "2503.08351v1.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 3
+    },
+    "2503.08355v1.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 0
+    },
+    "2503.08365v1.pdf": {
+      "split": "val",
+      "field": "math",
+      "fold": 0
+    },
+    "2503.08366v1.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 1
+    },
+    "2503.08374v1.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 0
+    },
+    "2503.08380v1.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 1
+    },
+    "2503.08396v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 1
+    },
+    "2503.08418v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 2
+    },
+    "2503.08419v1.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 0
+    },
+    "2503.08425v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 2
+    },
+    "2503.08432v1.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 3
+    },
+    "2503.08435v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 1
+    },
+    "2503.08448v1.pdf": {
+      "split": "test",
+      "field": "math",
+      "fold": 3
+    },
+    "2503.08451v1.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 1
+    },
+    "2503.08494v1.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 1
+    },
+    "2503.08500v1.pdf": {
+      "split": "val",
+      "field": "math",
+      "fold": 0
+    },
+    "2503.08509v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 0
+    },
+    "2503.08513v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 4
+    },
+    "2503.08515v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 1
+    },
+    "2503.08521v1.pdf": {
+      "split": "val",
+      "field": "math",
+      "fold": 3
+    },
+    "2503.08531v1.pdf": {
+      "split": "test",
+      "field": "q-bio",
+      "fold": 0
+    },
+    "2503.08536v1.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 2
+    },
+    "2503.08547v1.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 2
+    },
+    "2503.08554v1.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 4
+    },
+    "2503.08563v1.pdf": {
+      "split": "val",
+      "field": "physics",
+      "fold": 2
+    },
+    "2503.08566v1.pdf": {
+      "split": "val",
+      "field": "math",
+      "fold": 1
+    },
+    "2503.08572v1.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 2
+    },
+    "2503.08581v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 4
+    },
+    "2503.08584v1.pdf": {
+      "split": "train",
+      "field": "physics",
+      "fold": 0
+    },
+    "2503.08585v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 2
+    },
+    "2503.08588v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 4
+    },
+    "2503.08590v1.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 4
+    },
+    "2503.08594v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 4
+    },
+    "2503.08595v1.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 3
+    },
+    "2503.08596v1.pdf": {
+      "split": "test",
+      "field": "cs",
+      "fold": 2
+    },
+    "2503.08599v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 3
+    },
+    "2503.08600v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 3
+    },
+    "2503.08601v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 3
+    },
+    "2503.08603v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 1
+    },
+    "2503.08607v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 3
+    },
+    "2503.08608v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 0
+    },
+    "2503.08609v1.pdf": {
+      "split": "val",
+      "field": "cs",
+      "fold": 1
+    },
+    "2503.08610v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 3
+    },
+    "2503.08612v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 2
+    },
+    "2503.08614v1.pdf": {
+      "split": "test",
+      "field": "math",
+      "fold": 2
+    },
+    "2503.08615v1.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 1
+    },
+    "2503.08618v1.pdf": {
+      "split": "val",
+      "field": "math",
+      "fold": 4
+    },
+    "2503.08619v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 4
+    },
+    "2503.08622v1.pdf": {
+      "split": "val",
+      "field": "cs",
+      "fold": 2
+    },
+    "2503.08625v1.pdf": {
+      "split": "val",
+      "field": "cs",
+      "fold": 2
+    },
+    "2503.08632v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 2
+    },
+    "2503.08633v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 4
+    },
+    "2503.08635v1.pdf": {
+      "split": "val",
+      "field": "physics",
+      "fold": 3
+    },
+    "2503.08639v1.pdf": {
+      "split": "test",
+      "field": "cs",
+      "fold": 3
+    },
+    "2503.08640v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 4
+    },
+    "2503.08641v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 0
+    },
+    "2503.08644v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 2
+    },
+    "2503.08648v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 1
+    },
+    "2503.08649v1.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 1
+    },
+    "2503.08650v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 0
+    },
+    "2503.08661v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 1
+    },
+    "2503.08662v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 0
+    },
+    "2503.08664v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 2
+    },
+    "2503.08665v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 2
+    },
+    "2503.08668v1.pdf": {
+      "split": "test",
+      "field": "cs",
+      "fold": 2
+    },
+    "2503.08673v1.pdf": {
+      "split": "val",
+      "field": "cs",
+      "fold": 1
+    },
+    "2503.08676v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 0
+    },
+    "2503.08677v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 1
+    },
+    "2503.08678v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 3
+    },
+    "2503.08681v1.pdf": {
+      "split": "val",
+      "field": "cs",
+      "fold": 4
+    },
+    "2503.08683v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 1
+    },
+    "2503.08684v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 0
+    },
+    "2503.08685v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 2
+    },
+    "2503.08686v1.pdf": {
+      "split": "test",
+      "field": "cs",
+      "fold": 0
+    },
+    "2503.08689v1.pdf": {
+      "split": "train",
+      "field": "cs",
+      "fold": 2
+    },
+    "9912199v1.pdf": {
+      "split": "train",
+      "field": "math",
+      "fold": 3
+    }
+  }
+}
