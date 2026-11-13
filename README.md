@@ -91,14 +91,7 @@ order and article membership are preserved.
 | Manuscripts | 500 |
 | Source pages | 6,386 |
 | Usable page samples | 6,201 |
-| Dropped pages (no section to inherit) | 185 |
-| Manually annotated pages | 2,215 (35.7%) |
-| Inherited pages | 3,986 (64.3%) |
-| Annotated sections | 2,215 |
 | Labels | 18 |
-| Pages per article | 12.4 mean (13 median, range 2–20) |
-| Characters per page | 3,113 mean (2,970 median) |
-| Labels per page | 1.25 mean (max 6) |
 
 Four labels are low-support and their per-label F1 is noisy: `evaluation` (87
 covered pages), `analysis` (79), `objectives` (47) and `materials` (44). The
